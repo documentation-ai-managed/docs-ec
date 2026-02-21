@@ -9,145 +9,151 @@
     }
   },
   "navigation": {
-    "languages": [
+    "products": [
       {
-        "icon": "book",
-        "groups": [
+        "product": "XXX",
+        "icon": "align-center-vertical",
+        "dropdowns": [
           {
-            "group": "Start Here",
-            "icon": "rocket",
+            "icon": "book",
+            "groups": [
+              {
+                "group": "Start Here",
+                "icon": "rocket",
+                "pages": [
+                  {
+                    "title": "Introduction",
+                    "path": "introduction",
+                    "icon": "home"
+                  },
+                  {
+                    "title": "Quickstart",
+                    "path": "quickstart",
+                    "icon": "zap"
+                  },
+                  {
+                    "title": "Components",
+                    "path": "components",
+                    "icon": "code"
+                  }
+                ]
+              },
+              {
+                "group": "Components",
+                "icon": "layers",
+                "pages": [
+                  {
+                    "title": "Images",
+                    "path": "components/images",
+                    "icon": "image"
+                  },
+                  {
+                    "title": "Cards",
+                    "path": "components/cards",
+                    "icon": "square"
+                  },
+                  {
+                    "title": "Code",
+                    "path": "components/code",
+                    "icon": "code"
+                  },
+                  {
+                    "title": "Callouts",
+                    "path": "components/callouts",
+                    "icon": "message-square"
+                  },
+                  {
+                    "title": "Steps",
+                    "path": "components/steps",
+                    "icon": "list-ordered"
+                  },
+                  {
+                    "title": "Tabs",
+                    "path": "components/tabs",
+                    "icon": "columns"
+                  }
+                ]
+              }
+            ],
+            "dropdown": "Documentation"
+          },
+          {
+            "icon": "code",
+            "groups": [
+              {
+                "group": "Overview",
+                "icon": "file-text",
+                "pages": [
+                  {
+                    "title": "Authentication",
+                    "path": "authentication",
+                    "icon": "lock"
+                  }
+                ]
+              },
+              {
+                "group": "Sample Endpoints",
+                "openapi": "openapi.yaml"
+              }
+            ],
+            "dropdown": "API Reference"
+          },
+          {
+            "icon": "help-circle",
             "pages": [
               {
-                "title": "Introduction",
-                "path": "introduction",
+                "title": "Help Center",
+                "path": "help-center",
                 "icon": "home"
               },
               {
-                "title": "Quickstart",
-                "path": "quickstart",
-                "icon": "zap"
+                "group": "FAQs",
+                "icon": "help-circle",
+                "expandable": false,
+                "pages": [
+                  {
+                    "title": "Documentation Source",
+                    "path": "help-center/faq/getting-started"
+                  }
+                ]
               },
               {
-                "title": "Components",
-                "path": "components",
-                "icon": "code"
+                "group": "Troubleshooting",
+                "icon": "alert-triangle",
+                "expandable": false,
+                "pages": [
+                  {
+                    "title": "Page Missing in Sidebar",
+                    "path": "help-center/troubleshooting/install-error"
+                  }
+                ]
+              },
+              {
+                "group": "Guides",
+                "icon": "book-open",
+                "expandable": false,
+                "pages": [
+                  {
+                    "title": "Create Your First Page",
+                    "path": "help-center/guides/setup-project"
+                  }
+                ]
               }
-            ]
+            ],
+            "dropdown": "Help Center"
           },
           {
-            "group": "Components",
-            "icon": "layers",
+            "icon": "clock",
             "pages": [
               {
-                "title": "Images",
-                "path": "components/images",
-                "icon": "image"
-              },
-              {
-                "title": "Cards",
-                "path": "components/cards",
-                "icon": "square"
-              },
-              {
-                "title": "Code",
-                "path": "components/code",
-                "icon": "code"
-              },
-              {
-                "title": "Callouts",
-                "path": "components/callouts",
-                "icon": "message-square"
-              },
-              {
-                "title": "Steps",
-                "path": "components/steps",
-                "icon": "list-ordered"
-              },
-              {
-                "title": "Tabs",
-                "path": "components/tabs",
-                "icon": "columns"
+                "title": "Changelog",
+                "path": "changelog",
+                "icon": "history"
               }
-            ]
+            ],
+            "dropdown": "Changelog"
           }
-        ],
-        "language": "Documentation"
-      },
-      {
-        "icon": "code",
-        "groups": [
-          {
-            "group": "Overview",
-            "icon": "file-text",
-            "pages": [
-              {
-                "title": "Authentication",
-                "path": "authentication",
-                "icon": "lock"
-              }
-            ]
-          },
-          {
-            "group": "Sample Endpoints",
-            "openapi": "openapi.yaml"
-          }
-        ],
-        "language": "API Reference"
-      },
-      {
-        "icon": "help-circle",
-        "pages": [
-          {
-            "title": "Help Center",
-            "path": "help-center",
-            "icon": "home"
-          },
-          {
-            "group": "FAQs",
-            "icon": "help-circle",
-            "expandable": false,
-            "pages": [
-              {
-                "title": "Documentation Source",
-                "path": "help-center/faq/getting-started"
-              }
-            ]
-          },
-          {
-            "group": "Troubleshooting",
-            "icon": "alert-triangle",
-            "expandable": false,
-            "pages": [
-              {
-                "title": "Page Missing in Sidebar",
-                "path": "help-center/troubleshooting/install-error"
-              }
-            ]
-          },
-          {
-            "group": "Guides",
-            "icon": "book-open",
-            "expandable": false,
-            "pages": [
-              {
-                "title": "Create Your First Page",
-                "path": "help-center/guides/setup-project"
-              }
-            ]
-          }
-        ],
-        "language": "Help Center"
-      },
-      {
-        "icon": "clock",
-        "pages": [
-          {
-            "title": "Changelog",
-            "path": "changelog",
-            "icon": "history"
-          }
-        ],
-        "language": "Changelog"
+        ]
       }
     ]
   }
