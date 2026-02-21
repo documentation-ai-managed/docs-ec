@@ -13,69 +13,74 @@
       {
         "product": "XXX",
         "icon": "align-center-vertical",
-        "dropdowns": [
+        "tabs": [
           {
             "icon": "book",
-            "groups": [
+            "tab": "Documentation",
+            "dropdowns": [
               {
-                "group": "Start Here",
-                "icon": "rocket",
-                "pages": [
+                "dropdown": "MYMYMY",
+                "groups": [
                   {
-                    "title": "Introduction",
-                    "path": "introduction",
-                    "icon": "home"
+                    "group": "Start Here",
+                    "icon": "rocket",
+                    "pages": [
+                      {
+                        "title": "Introduction",
+                        "path": "introduction",
+                        "icon": "home"
+                      },
+                      {
+                        "title": "Quickstart",
+                        "path": "quickstart",
+                        "icon": "zap"
+                      },
+                      {
+                        "title": "Components",
+                        "path": "components",
+                        "icon": "code"
+                      }
+                    ]
                   },
                   {
-                    "title": "Quickstart",
-                    "path": "quickstart",
-                    "icon": "zap"
-                  },
-                  {
-                    "title": "Components",
-                    "path": "components",
-                    "icon": "code"
-                  }
-                ]
-              },
-              {
-                "group": "Components",
-                "icon": "layers",
-                "pages": [
-                  {
-                    "title": "Images",
-                    "path": "components/images",
-                    "icon": "image"
-                  },
-                  {
-                    "title": "Cards",
-                    "path": "components/cards",
-                    "icon": "square"
-                  },
-                  {
-                    "title": "Code",
-                    "path": "components/code",
-                    "icon": "code"
-                  },
-                  {
-                    "title": "Callouts",
-                    "path": "components/callouts",
-                    "icon": "message-square"
-                  },
-                  {
-                    "title": "Steps",
-                    "path": "components/steps",
-                    "icon": "list-ordered"
-                  },
-                  {
-                    "title": "Tabs",
-                    "path": "components/tabs",
-                    "icon": "columns"
+                    "group": "Components",
+                    "icon": "layers",
+                    "pages": [
+                      {
+                        "title": "Images",
+                        "path": "components/images",
+                        "icon": "image"
+                      },
+                      {
+                        "title": "Cards",
+                        "path": "components/cards",
+                        "icon": "square"
+                      },
+                      {
+                        "title": "Code",
+                        "path": "components/code",
+                        "icon": "code"
+                      },
+                      {
+                        "title": "Callouts",
+                        "path": "components/callouts",
+                        "icon": "message-square"
+                      },
+                      {
+                        "title": "Steps",
+                        "path": "components/steps",
+                        "icon": "list-ordered"
+                      },
+                      {
+                        "title": "Tabs",
+                        "path": "components/tabs",
+                        "icon": "columns"
+                      }
+                    ]
                   }
                 ]
               }
-            ],
-            "dropdown": "Documentation"
+            ]
           },
           {
             "icon": "code",
@@ -96,7 +101,7 @@
                 "openapi": "openapi.yaml"
               }
             ],
-            "dropdown": "API Reference"
+            "tab": "API Reference"
           },
           {
             "icon": "help-circle",
@@ -140,7 +145,7 @@
                 ]
               }
             ],
-            "dropdown": "Help Center"
+            "tab": "Help Center"
           },
           {
             "icon": "clock",
@@ -151,7 +156,16 @@
                 "icon": "history"
               }
             ],
-            "dropdown": "Changelog"
+            "tab": "Changelog"
+          }
+        ]
+      },
+      {
+        "product": "AAAA",
+        "groups": [
+          {
+            "group": "AAAA",
+            "pages": []
           }
         ]
       }
