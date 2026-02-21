@@ -9,9 +9,8 @@
     }
   },
   "navigation": {
-    "tabs": [
+    "languages": [
       {
-        "tab": "Documentation",
         "icon": "book",
         "groups": [
           {
@@ -71,10 +70,10 @@
               }
             ]
           }
-        ]
+        ],
+        "language": "Documentation"
       },
       {
-        "tab": "API Reference",
         "icon": "code",
         "groups": [
           {
@@ -92,10 +91,10 @@
             "group": "Sample Endpoints",
             "openapi": "openapi.yaml"
           }
-        ]
+        ],
+        "language": "API Reference"
       },
       {
-        "tab": "Help Center",
         "icon": "help-circle",
         "pages": [
           {
@@ -136,10 +135,10 @@
               }
             ]
           }
-        ]
+        ],
+        "language": "Help Center"
       },
       {
-        "tab": "Changelog",
         "icon": "clock",
         "pages": [
           {
@@ -147,7 +146,8 @@
             "path": "changelog",
             "icon": "history"
           }
-        ]
+        ],
+        "language": "Changelog"
       }
     ]
   }
